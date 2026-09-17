@@ -91,14 +91,29 @@ body {
 .btn {
   display: inline-block;
   padding: 10px 20px;
+  border: 0;
   border-radius: 999px;
   text-decoration: none;
   font-size: 0.95rem;
   font-family: system-ui, sans-serif;
   font-weight: 600;
+  cursor: pointer;
 }
 .btn-primary { background: #fff; color: var(--accent); }
-.btn-ghost { border: 1px solid rgba(255,255,255,0.6); color: #fff; }
+.btn-ghost { border: 1px solid rgba(255,255,255,0.6); color: #fff; background: transparent; }
+.btn:hover { transform: translateY(-1px); }
+.btn:focus-visible,
+.tab-btn:focus-visible,
+.link:focus-visible {
+  outline: 3px solid #ffd166;
+  outline-offset: 3px;
+}
+.share-status {
+  min-height: 1.3em;
+  margin: 12px 0 -2px;
+  font: 0.78rem/1.35 system-ui, sans-serif;
+  color: rgba(255,255,255,0.9);
+}
 .updated { font-size: 0.8rem; opacity: 0.75; margin: 18px 0 0; font-family: system-ui, sans-serif; }
 
 .concept {

@@ -20,7 +20,15 @@ Une fois publié sur GitHub Pages : `https://<username>.github.io/<repo>/`
 
 - `index.html` — page unique avec bascule Samedi / Dimanche / Extras hors zone
 - `assets/style.css` — styles (clair/sombre automatique selon les préférences système)
-- `assets/script.js` — bascule entre les jours
+- `assets/script.js` — bascule entre les jours et partage natif/copie de lien de secours
+- `docs/media/STRATEGIE_MEDIA.md` — positionnement, publics, canaux, indicateurs et règles de communication
+- `docs/media/CALENDRIER_EDITORIAL.md` — déroulé d’activation de J-2 à J+3
+- `docs/media/COPY_SOCIALE.md` — messages et publications prêts à adapter
+- `docs/media/NOTE_MEDIA.md` — présentation pour relais culturels et agendas
+
+## Diffusion et partage
+
+Le site est publié à l’adresse : <https://josephboulange0-gif.github.io/Journ-es-du-patrimoine-Paris-2026/>. Les métadonnées de partage et le bouton « Partager le parcours » utilisent cette URL de référence. Le kit de communication est volontairement indépendant : les horaires, ouvertures et réservations doivent toujours être vérifiés auprès des organisateurs et du [programme officiel](https://journeesdupatrimoine.culture.gouv.fr/programme).
 
 ## Limites
 
